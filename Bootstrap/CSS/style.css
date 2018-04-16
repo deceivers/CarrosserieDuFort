@@ -1,0 +1,249 @@
+
+
+/*-------------------------------CSS General----------------------------------*/ 
+body{
+    background-color: #e0dbd7;
+}
+@font-face {
+    font-family:"CaviarDreams";
+    src:url("CaviarDreams.ttf") format("truetype");
+        font-weight:normal;
+        font-style:normal;
+}
+
+@font-face {
+    font-family:"Type Grotesk";
+    src:url("Typo Grotesk Rounded Demo.otf") format("otf");
+        font-weight:normal;
+        font-style:normal;
+}
+
+/*-------------------------------CSS header.php----------------------------------*/ 
+img.logo{
+    width: 130px;
+}
+
+.navbar{
+    padding:0px;
+    margin-top:12px;
+    margin-bottom:12px;
+    background-color: #515151;
+    font-family: "Typo Grostesk";
+}
+
+.navbar-brand{
+    padding:0px;
+}
+
+button.btn-outline-danger{
+    margin-right: 10px;
+    margin-top: 15px;
+    border: 1px solid #E30613;
+    color: #E30613;
+}
+button.btn-outline-danger:hover{
+    background-color: #E30613;
+    border: 1px solid #E30613;
+}
+
+/*-------------------------------CSS gestion.php----------------------------------*/ 
+
+.table, .table > tbody > tr > td{
+    font-family: 'Type Grotesk';
+    text-align: center;
+    vertical-align: middle;
+}
+.table > thead > tr > td {
+    color: #E30613;
+}
+
+.table > tbody > tr > td{
+    height: 120px;
+}
+
+td > .vehicule {
+    width: 120px;
+    margin: auto;
+}
+
+img.effacer{
+    width: 60px;
+    margin: auto;
+}
+
+img.add{
+    width: 60px;
+}
+img.modifier{
+    width: 60px;
+    margin: auto;
+}
+
+/*-------------------------------CSS admin.php----------------------------------*/ 
+
+H1#admin{
+    text-align: center;
+    color:#E30613;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-top: solid 1px #E30613;
+    border-bottom: solid 1px #E30613;
+}
+form#admin{
+    padding-top: 40px; 
+}
+button.btn-danger{
+    background-color: #E30613;
+}
+
+/*-------------------------------CSS touftouf.php----------------------------------*/ 
+img.logo2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+form#touftouf > div >label.col-form-label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #E30613;
+    font-family: 'Type Grotest';
+}
+
+div#touftouf{
+    margin-top:40px;
+}
+
+/*-------------------------------CSS modififer.php----------------------------------*/ 
+img.photoPrincipal{
+    opacity: 1;
+    width: 160px;
+    height: 120.5px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.containers:hover .photoPrincipal {
+  opacity: 0.5;
+}
+
+.containers:hover .middle {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.text {
+  background-color: #E30613;
+  color: white;
+  font-size: 8px;
+  padding: 8px 16px;
+}
+
+.test{   
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*----------------------------------CSS index.html----------------------------------*/
+.logoIndex{
+    height: 100px;
+    width: auto;
+}
+
+.contact{
+    display: flex;
+}
+.contactText{
+    margin: auto;
+    font-size: 32px;
+    font-family: 'Type Grotest';
+}
+.contactText:hover{
+    margin: auto;
+    font-size: 32px;
+    font-family: 'Type Grotest';
+    text-decoration: underline;
+    text-decoration-color: #525352;
+    cursor:pointer;
+}
+
+.underligne{
+    border-bottom: solid #525352 1px
+        
+}
+.header{
+    background-color: #7e7f7e;
+}
+.titreVente{
+    margin-top: 80px;
+    font-size: 52px;
+    font-family: 'Type Grotest';
+    color: #E30613;
+    text-align: center;
+    border-bottom: solid 1px #E30613;
+}
+.vehiculeVente{
+    margin-top:50px;
+}
+.item{
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid #525352 1px;
+    color:#515151;
+}
+.divVente{
+    padding: 0px;
+}
+.imgVente{
+    width: 100%;
+    height: auto;
+}
+.marque{
+    font-size: 30px;
+}
+.complement{
+    font-size: 24px;
+    color: #525352;
+}
+.tabVente{
+    display: flex;
+}
+.info{
+    font-size: 24px;
+}
+.info2{
+    font-size: 24px;
+}
+.info3{
+    font-size: 24px;
+    float: right;
+}
+.annee{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.kilometre{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.prix{
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.energie{
+    margin-right: 20px;
+}
+.fiscale{
+    margin-right: 20px;
+}
+
+
